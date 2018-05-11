@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>tab</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+</head>
+<style>
+	body{background: #F3F3F3;}
+    .box {
+        width: 270px;
+        height: 270px;
+        /*border: 1px solid red;*/
+        margin: 68px auto;
+        position: relative;
+        background: url(img/icon/img_1.png) no-repeat center center;background-size:cover;
+    }
+    li {
+        list-style: none;
+        position: absolute;
+    }
+    ul .spe img{width:100px;}
+    li img{width:83px;}
+    ul li:first-child {
+        top: 140px;
+        left:-43px;
+    }
+    ul li:nth-child(2) {
+        top:-12px;
+        left: -43px;
+    }
+    ul li:nth-child(3) {
+        top:-76px;
+        left: 88px;
+    }
+    ul li:nth-child(4) {
+        top:-12px;
+        left: 228px;
+    }
+    ul li:nth-child(5) {
+        top:140px;
+        left: 228px;
+    }
+    ul li:nth-child(6) {
+        top:198px;
+        left:88px;
+    }
+    ul li:last-child {
+        top:54px;
+        left:88px;
+    }
+    @media screen  and (max-width: 320px){
+    	.box {
+        width: 240px;
+        height: 240px;
+       /* border: 1px solid red;*/
+        margin: 68px auto;
+        position: relative;
+        background: url(img/icon/img_1.png) no-repeat center center;background-size:cover;
+	    }
+	    li {
+	        list-style: none;
+	        position: absolute;
+	    }
+	    ul .spe img{width:76px;}
+	    li img{width:66px;cursor: pointer;}
+	    ul li:first-child {
+	        top: 140px;
+	        left:-32px;
+	    }
+	    ul li:nth-child(2) {
+	        top:-6px;
+	        left: -32px;
+	    }
+	    ul li:nth-child(3) {
+	        top:-58px;
+	        left: 84px;
+	    }
+	    ul li:nth-child(4) {
+	        top:-6px;
+	        left: 210px;
+	    }
+	    ul li:nth-child(5) {
+	        top:130px;
+	        left: 210px;
+	    }
+	    ul li:nth-child(6) {
+	        top:182px;
+	        left:82px;
+	    }
+	    ul li:last-child {
+	        top:56px;
+	        left:84px;
+	    }
+    }
+</style>
+<body>
+    <div class="box">
+       <ul>
+           <li><img src="img/icon/icon_1.png" id="btn_one" /></li>
+           <li><img src="img/icon/icon_2.png" id="btn_two" /></li>
+           <li class="spe"><img src="img/icon/icon_3.png" id="btn_three" /></li>
+           <li><img src="img/icon/icon_4.png" id="btn_four" /></li>
+           <li><img src="img/icon/icon_5.png" id="btn_five" /></li>
+           <li><img src="img/icon/icon_6.png" id="btn_six" /></li>
+           <li><img src="img/icon/icon_7.png" id="btn_seven" /></li>
+       </ul>
+    </div>
+    <script>
+		$("#btn_one").click(function(){
+			app.itemClick("index1.html");
+		})
+		$("#btn_two").click(function(){
+			app.itemClick("index2.html");
+		})
+		$("#btn_three").click(function(){
+			app.itemClick("index3.html");
+		})
+		$("#btn_four").click(function(){
+			app.itemClick("index4.html");
+		})
+		$("#btn_five").click(function(){
+			app.itemClick("index5.html");
+		})
+		$("#btn_six").click(function(){
+			app.itemClick("index6.html");
+		})
+		$("#btn_seven").click(function(){
+			app.itemClick("index7.html");
+		})
+	</script>
+</body>
+</html>

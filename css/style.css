@@ -1,0 +1,23 @@
+*{margin:0;padding: 0;}
+body{background: #f3f3f3;font-family: "黑体";font-size: 14px;color: #a2a2a2;}
+.container{padding:4%;width:92%;}
+.container .head,.head img{width:100%;}
+.head .tit{margin-bottom:6px;font-size: 16px;font-weight: bold;color: #000;}
+.head .time{margin-bottom:12px;}
+.main{margin-top:12px;width:100%;}
+.main article{width:100%;margin-bottom:14px;text-indent: 28px;line-height: 22px;}
+.main div{margin-bottom: 14px;}
+.tit_sec{color: #000;}
+.tit_sec .bor{margin-right:4px;border-left:4px solid #00b8a6;font-size: 13px;}
+.main div img{width:100%;}
+.main p{text-indent: 10px;line-height: 20px;}
+.main .bott{margin-top:12px;}
+.spe_main{margin-top:4px; margin-bottom:20px;}
+.foot_main{padding-left:12px;}
+.foot_main .msg{display: flex;margin-top:16px;}
+.msg .left{flex: 2;}
+.msg .left img{position:relative;top:25px;left:10px;width:88%;}
+.msg .right{padding-left:10px;flex: 5;font-size: 10px;}
+.msg .right p{text-indent: 0;padding-right:22px;}
+.msg .phone{color: #00B8A6;}
+.msg .en{font-family: helvetica;}
